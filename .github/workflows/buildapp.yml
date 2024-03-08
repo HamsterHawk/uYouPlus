@@ -92,7 +92,7 @@ jobs:
         uses: actions/checkout@v4.1.1
         with:
           repository: qnblackcat/theos-jailed
-          ref: master
+          ref: 4bcc52914e0eeca719288522938185decaa8a1cb
           path: theos-jailed
           submodules: recursive
 
