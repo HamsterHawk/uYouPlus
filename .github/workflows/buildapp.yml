@@ -91,9 +91,9 @@ jobs:
       - name: Setup Theos Jailed
         uses: actions/checkout@v4.1.1
         with:
-          repository: theos/theos
+          repository: qnnblackcat/theos-jailed
           ref: 4bcc52914e0eeca719288522938185decaa8a1cb
-          path: theos
+          path: theos-jailed
           submodules: recursive
 
       - name: Install Theos Jailed
